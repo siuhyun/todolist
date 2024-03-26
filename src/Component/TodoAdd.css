@@ -1,0 +1,32 @@
+.TodoAdd {
+  display: flex;
+  padding: 20px 0 20px;
+}
+
+.TodoAdd input {
+  flex: 1;
+  line-height: 1.5;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  color: #333;
+  font-size: 16px;
+}
+
+.TodoAdd input::placeholder {
+  font-weight: 300;
+}
+
+.TodoAdd button {
+  display: flex;
+  padding-right: 0;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.TodoAdd button svg {
+  color: #fff;
+  font-size: 23px;
+}

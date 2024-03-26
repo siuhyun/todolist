@@ -1,0 +1,64 @@
+.TodoObject {
+  display: flex;
+  align-items: center;
+  padding: 13px 0;
+  border-bottom: 1px solid #eee;
+  color: #fff;
+}
+
+.TodoObject.star {
+  order: -1;
+}
+
+.TodoObject .checkbox {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  cursor: pointer;
+}
+
+.TodoObject .checkbox svg {
+  font-size: 18px;
+}
+
+.TodoObject .checkbox .text {
+  flex: 1;
+  margin-left: 12px;
+  font-size: 18px;
+}
+
+.TodoObject .checkbox.checked svg {
+  color: #fff;
+}
+
+.TodoObject .checkbox.checked .text {
+  color: #dedede;
+  text-decoration: line-through;
+}
+
+.TodoObject .important {
+  display: flex;
+  color: #ccc;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.TodoObject .important:hover {
+  color: #f0f351;
+}
+
+.TodoObject .important.star {
+  color: #f0f351;
+}
+
+.TodoObject .remove {
+  display: flex;
+  margin-left: 5px;
+  color: #ff6b6bc9;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.TodoObject .remove:hover {
+  color: #ff6b6b;
+}

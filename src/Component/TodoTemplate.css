@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Righteous&family=VT323&display=swap');
+
+
+.TodoTemplate {
+  width: 430px;
+  padding: 40px 50px;
+  margin: 100px auto;
+  background-color: #2e8b57;
+  box-shadow: 5px 10px 10px #c1c0b9;
+  border-radius: 10%;
+}
+
+.TodoTemplate .app_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.TodoTemplate .app_header .date_area {
+  display: flex;
+  color: #fff;
+  font-family: "Lora";
+}
+
+.TodoTemplate .app_header .date_area .left_col .day_area {
+  margin-right: 3px;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.TodoTemplate .app_header .date_area .right_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.TodoTemplate .app_header .date_area .right_col .month_area {
+  font-family: "Lora";
+  font-size: 14px;
+}
+
+.TodoTemplate .app_header .date_area .right_col .year_area {
+  line-height: 1;
+}
+
+.TodoTemplate .app_header .title {
+  color: #fff;
+  font: italic 700 35px "Righteous";
+  letter-spacing: -0.5px;
+}
