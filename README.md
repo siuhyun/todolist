@@ -1,3 +1,43 @@
+# TodoList
+
+
+## 🖥️ Summary
+**React 기반의 할 일 목록 앱을 활용한 웹사이트**입니다. 포트폴리오용으로 제작되었으며, 할 일 목록의 입력 및 추가, 중요도 표시, 삭제, 완료 여부 등의 기능을 직접 구현하였습니다.
+조금씩 공부하고 있던 React.js를 활용하여 컴포넌트 사용에 대해 구체화 할 수 있었습니다.
+
+## 🕰️ 개발 기간
+* 24.03.24 - 24.03.26
+
+##  📌 주요 기능
+
+✅ 연도와 날짜 표시
+
+✅ 할 일 작성과 추가
+
+✅ 완료 여부 체크하기
+
+✅ 중요도 별 표시로 확인하기
+
+✅ 목록 삭제 하기
+
+## 🤔 Background
+React 학습을 위해 진행한 토이 프로젝트로, 실제로 투두리스트(Todo List)라고 불리는 유형의 할 일 목록 앱을 참고하여 개발한 웹사이트입니다.  대부분의 할 일 목록 앱들에 기초가 되는 기능과 UI를 편리하게 사용할 수 있도록 간결하고 직관적으로 직접 개발하였습니다.
+
+## 🔨 Technology Stack(s)
+* Design : Figma, Photoshop
+* Frontend: React, HTML, CSS, javascript
+* Deployment: gitHub
+
+## 컴포넌트 구성
+
+
+
+
+
+
+
+
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +108,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# TodoList
+
